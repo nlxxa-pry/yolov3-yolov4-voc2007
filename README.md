@@ -1,4 +1,4 @@
-## YOLOV3：You Only Look Once目标检测模型在Pytorch当中的实现
+## YOLOV3 & YOLOV4：You Only Look Once目标检测模型在Pytorch当中的实现
 ---
 
 
