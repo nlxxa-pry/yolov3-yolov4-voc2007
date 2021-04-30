@@ -15,7 +15,16 @@
 torch == 1.2.0
 
 ## 文件下载
-训练所需的yolo_weights.pth可以在百度云下载。   
+**已训练好的模型可在百度云下载：  
+yolov3：  
+链接：https://pan.baidu.com/s/1tREEB_YZs5gJyg3LPeMGEw  
+提取码：sa25  
+  
+**yolov4：  
+链接：https://pan.baidu.com/s/1BJOgv6jwct92XiPZ9YWYkw  
+提取码：w07h  
+
+训练所需的yolo_weights.pth：   
 yolov3:   
 链接: https://pan.baidu.com/s/1ncREw6Na9ycZptdxiVMApw   
 提取码: appk  
@@ -27,14 +36,7 @@ yolo4_weights.pth是coco数据集的权重。
 yolo4_voc_weights.pth是voc数据集的权重。  
   
   
-已训练好的模型：  
-yolov3：  
-链接：https://pan.baidu.com/s/1tREEB_YZs5gJyg3LPeMGEw  
-提取码：sa25  
-  
-yolov4：  
-链接：https://pan.baidu.com/s/1BJOgv6jwct92XiPZ9YWYkw  
-提取码：w07h  
+
   
   
 VOC数据集下载地址如下：  
