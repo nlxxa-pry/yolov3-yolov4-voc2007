@@ -1,14 +1,15 @@
-## YOLOV3 & YOLOV4：You Only Look Once目标检测模型在Pytorch当中的实现
+## YOLOV3 & YOLOV4 & YOLOV4-tiny：You Only Look Once目标检测模型在Pytorch当中的实现
 ---
 
 
 ## 目录
 1. [所需环境](#所需环境)
-2. [文件下载](#文件下载)
-3. [预测](#预测步骤)
-4. [训练](#训练步骤)
-5. [评估](#评估步骤)
-6. [参考资料](#Reference)
+2. [文件下载](#文件下载)  
+3. [简要说明](#简要说明)
+4. [预测](#预测)
+5. [训练](#训练)
+6. [评估](#评估)
+7. [参考资料](#Reference)
 
 
 ## 所需环境
@@ -36,15 +37,20 @@ yolo4_weights.pth是coco数据集的权重。
 yolo4_voc_weights.pth是voc数据集的权重。  
   
   
-
-  
-  
 VOC数据集下载地址如下：  
 VOC2007训练集和验证集    
 链接: https://pan.baidu.com/s/1t-4K_TeEolvpshatk9d_Tg 提取码: yylo    
 
 VOC2007测试集   
-链接: https://pan.baidu.com/s/1BnMiFwlNwIWG9gsd4jHLig 提取码: dsda   
+链接: https://pan.baidu.com/s/1BnMiFwlNwIWG9gsd4jHLig 提取码: dsda  
+
+
+## 简要说明
+1、VOCdevkit：数据集所在文件夹，其中训练集和验证集在VOC2007中，测试集在VOC2007_test中  
+2、model_data: 预训练的模型  
+3、logs: 存放每个epoch得到的模型文件名显示train loss和valid loss，可供选择最佳模型。  
+4、log_loss：tensorboard绘制loss曲线文件  
+5、nets：网络模型代码
 
 ## 预测
 将训练好的模型放入log文件夹（或直接在yolo.py文件中改model path的默认值）  
