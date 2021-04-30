@@ -25,6 +25,10 @@ yolov3：
 链接：https://pan.baidu.com/s/1BJOgv6jwct92XiPZ9YWYkw  
 提取码：w07h**  
 
+**yolov4-tiny:
+链接：https://pan.baidu.com/s/11CU6S8grLGIZCV25VtxD7w
+提取码：n05u**  
+
 训练所需的yolo_weights.pth：   
 yolov3:   
 链接: https://pan.baidu.com/s/1ncREw6Na9ycZptdxiVMApw   
