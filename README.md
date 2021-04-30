@@ -40,6 +40,9 @@ yolov4:
 yolo4_weights.pth是coco数据集的权重。  
 yolo4_voc_weights.pth是voc数据集的权重。  
   
+训练所需的yolov4_tiny_weights_coco.pth和yolov4_tiny_weights_voc.pth可在百度网盘中下载。   
+链接: https://pan.baidu.com/s/1B37A_-Fcx8TsAK-M4hm90g 提取码: 5te5  
+  
   
 VOC数据集下载地址如下：  
 VOC2007训练集和验证集    
