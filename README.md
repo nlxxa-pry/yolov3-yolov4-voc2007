@@ -18,11 +18,11 @@ torch == 1.2.0
 **已训练好的模型可在百度云下载：  
 yolov3：  
 链接：https://pan.baidu.com/s/1tREEB_YZs5gJyg3LPeMGEw  
-提取码：sa25  
+提取码：sa25**    
   
 **yolov4：  
 链接：https://pan.baidu.com/s/1BJOgv6jwct92XiPZ9YWYkw  
-提取码：w07h  
+提取码：w07h**  
 
 训练所需的yolo_weights.pth：   
 yolov3:   
